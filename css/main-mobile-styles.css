@@ -1,0 +1,56 @@
+/* This project is going to be worked with the following convention to apply the styles
+1. positioning
+2. model 
+3. typography
+4. visual elements
+5. others */
+
+
+/* Here we are going to have the variables for our colors, sizes and fonts */
+
+:root{
+    --background: rgb(13, 13, 59);
+}
+
+/* These are our initial styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* Now we are going to begin with the styles for the header */
+
+header{
+    width: 100%;
+    height: 50px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-container .navbar__logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.navbar-container .navbar__navigation-menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__navigation-menu a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
